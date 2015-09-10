@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:met_checkCharactersCountAtBeginning="false"
+        app:met_errorColor="#f00"
+        app:met_floatingLabel="normal"
+        app:met_floatingLabelText="Name"
+        app:met_floatingLabelTextColor="#078"
+        app:met_helperText="Use Alphabets only"
+        app:met_helperTextColor="#00f"
+        app:met_maxCharacters="20"
+        app:met_primaryColor="#000000"
+        app:met_singleLineEllipsis="true" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:met_errorColor="#f00"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="Password"
+        app:met_floatingLabelTextColor="#078"
+        app:met_helperText="Use Alphanumeric"
+        app:met_helperTextColor="#00f"
+        app:met_maxCharacters="20"
+        app:met_minCharacters="6"
+        app:met_primaryColor="#000000"
+        app:met_singleLineEllipsis="true" />
+
+</LinearLayout>
